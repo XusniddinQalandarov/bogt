@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/bot.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "api/weekly-summary.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/bot",
+        "dest": "api/bot.js"
+      },
+      {
+        "src": "/api/weekly-summary",
+        "dest": "api/weekly-summary.js"
+      },
+      {
+        "src": "/",
+        "dest": "/api/bot"
+      }
+    ]
+  }

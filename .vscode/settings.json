@@ -1,0 +1,8 @@
+{
+    "json.schemas": [
+      {
+        "fileMatch": ["/package.json"],
+        "url": "file:///c:/Users/D1n/OneDrive/Desktop/bogt/schemas/package-schema.json"
+      }
+    ]
+  }
