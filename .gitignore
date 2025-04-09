@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+tokens.env
+.env
+
+# Log files
+posts_log.txt
+
+# Vercel-specific files
+.vercel
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# macOS-specific files
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
